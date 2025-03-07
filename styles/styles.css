@@ -1,0 +1,119 @@
+/*typefaces*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+/*body*/
+.bodyStyles {
+    border-style: solid;
+    border-color:black;
+    background-color: #ffffff;
+    border-width: 25px;
+    margin: auto;
+    width: 70%;
+
+    /*Body Text Styles*/
+    h1 {
+        font-family: "Instrument Sans", sans-serif;
+        font-weight: 700;
+        font-size: 60px;
+    }
+    
+    h2 {
+        font-family: "Instrumental Sans", sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    h3 {
+        font-family: "Instrumental Sans", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+
+    }
+
+    p, span {
+        font-family: "Instrumental Sans", sans-serif;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+}
+    & .containerStyles {
+        border-style: solid;
+        border-width: 5px;
+        margin: auto;
+        width: 70%;
+    }
+
+    & .toolsStyles {
+        border-style: solid;
+        border-width: 5px;
+        margin: auto;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    & .projectStyles {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    & .portfolioCardStyles {
+    }
+        & .imgCardStyles {
+            width: 200px;
+        }
+
+        & .imgToolsStyles {
+            width: 100px;
+        }
+
+
+
+/*nav*/
+.navStyles {
+    padding: 40px;
+    display: flex;
+    margin: 20px;
+    /*row-gap: 20px;*/
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    & .btnNavStyles {
+        a {
+            font-family: 'Atkinson Hyperlegible Next';
+            font-weight: 700;
+            text-decoration: none;
+            color: black;
+            border-style:solid;
+            border-color: black;
+            border-width: 5px;
+            padding: 5px 10px 5px 10px;
+            background-color: #ffffff;        
+        }
+    }
+/*header*/
+.headerStyles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 150px;
+}
+
+    & .elevatorPitch {
+        text-align: center;
+
+    }
+
+/*contact*/
+
+
+/*footer*/
