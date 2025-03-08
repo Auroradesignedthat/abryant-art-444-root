@@ -48,7 +48,7 @@
         border-style: solid;
         border-width: 5px;
         margin: auto;
-        width: 70%;
+        padding: 20px;
         display: flex;
         flex-wrap: wrap;
         text-align: center;
@@ -59,19 +59,33 @@
     & .projectStyles {
         display: flex;
         flex-wrap: wrap;
+        gap: 20px;
         text-align: center;
         align-items: center;
         justify-content: space-between;
     }
 
     & .portfolioCardStyles {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-decoration: none;
+        align-items: center;
+        color: black;
+        border-style:solid;
+        border-width: 5px;
+        padding: 10px;
     }
         & .imgCardStyles {
             width: 200px;
         }
 
         & .imgToolsStyles {
-            width: 100px;
+            max-width: 60px;
+        }
+
+        & .divStyles {
+            padding: 40px;
         }
 
 
@@ -81,9 +95,12 @@
     padding: 40px;
     display: flex;
     margin: 20px;
-    /*row-gap: 20px;*/
     flex-direction: row;
     justify-content: space-between;
+
+    img {
+        width: 150px;
+    }
 }
 
     & .btnNavStyles {
@@ -97,8 +114,21 @@
             border-width: 5px;
             padding: 5px 10px 5px 10px;
             background-color: #ffffff;        
-        }
+        }       
     }
+
+.submitBtnStyles {
+    font-family: 'Atkinson Hyperlegible Next';
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+    padding: 5px 10px 5px 10px;
+    background-color: #ffffff; 
+}
+
 /*header*/
 .headerStyles {
     display: flex;
@@ -113,7 +143,30 @@
 
     }
 
-/*contact*/
+/*form*/
+.formStyles {
+    display: flex;
+    font-family: "Instrumental Sans", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.formElementStyles {
+    margin: 10px;
+}
 
 
 /*footer*/
+.footerStyles{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    img {
+        max-width: 50px;
+    }
+}
