@@ -1,0 +1,8 @@
+/*use dev mode in Figma to check code*/ 
+
+
+/*mobile devices*/
+@media (max-width: 800px) {
+    .flex-container {
+      flex-flow: column;
+    }
