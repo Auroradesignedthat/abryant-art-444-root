@@ -58,11 +58,9 @@ QUICKEST OPTION -- I'M SORRY!!!
     & .toolsStyles {
         border-style: solid;
         border-width: 5px;
+        text-align: center;
         padding: 5%;
-
-            img {
-                max-width: 50px;
-            }
+        margin: 5%;
     }
   /**CHANGE THESE FIXED WIDTH CARDS! THEY ARE IMPACTING YOUR RESPONSIVE DESIGN **/
     & .portfolioCardStyles {
@@ -73,6 +71,14 @@ QUICKEST OPTION -- I'M SORRY!!!
         border-width: 5px;
         padding: 2%;
         margin: 2%;
+
+        span {
+            margin: 2% 0%;
+        }
+
+        img {
+            margin: 2% 0%;
+        }
     }
     /**CHANGE THESE FIXED WIDTH CARDS! THEY ARE IMPACTING YOUR RESPONSIVE DESIGN **/
         & .imgCardStyles {
@@ -83,8 +89,6 @@ QUICKEST OPTION -- I'M SORRY!!!
             max-width: 60px;
             padding: 5%;
         }
-
-
 
 /*nav*/
 .navStyles {
@@ -132,23 +136,20 @@ QUICKEST OPTION -- I'M SORRY!!!
         padding: 10%;
 
     }
-.divStyles {
-    margin: 2%;
-}
 /*form*/
 .formStyles {
-    display: flex;
     font-family: "Instrumental Sans", sans-serif;
     font-weight: 500;
     font-size: 17px;
-    margin: auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    
+    max-width: 40%; 
 }
 
-/*footer
-CORRECT THE FIXED WIDTH*/
+.formElementStyles {
+    width: 100%;
+    margin: 2% 0%;
+}
+
+/*footer*/
 
 .footerWrapperStyles {
     border-style: solid;
@@ -156,17 +157,14 @@ CORRECT THE FIXED WIDTH*/
     margin: 2% 0%;
     padding: 5%;
 }
+
 .footerLeftStyles {
-    padding: 10px 30px;
+    padding: 2% 5%;
     width: auto;
 
         img {
             max-width: 50px;
         }
-}
-
-.photoStyles {
-    max-width: 50%;
 }
 
 .footerRightStyles {
