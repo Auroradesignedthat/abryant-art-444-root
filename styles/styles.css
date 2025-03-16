@@ -91,11 +91,12 @@ QUICKEST OPTION -- I'M SORRY!!!
         }
 
 /*nav*/
-.navStyles {
-    padding: 40px;
+.navDesktopStyles {
+    padding: 5%;
 
     img {
-        max-width: 25%;
+        max-width: 30%;
+        object-fit: contain;
     }
 }
 
@@ -108,7 +109,8 @@ QUICKEST OPTION -- I'M SORRY!!!
             border-style:solid;
             border-color: black;
             border-width: 5px;
-            padding: 5px 10px 5px 10px;
+            padding: 2% 5%;
+            margin: 5%;
             background-color: #ffffff;        
         }       
     }
@@ -123,6 +125,18 @@ QUICKEST OPTION -- I'M SORRY!!!
     border-width: 5px;
     padding: 1%,2%;
     background-color: #ffffff; 
+}
+
+.hamburgerMenu{
+    img {
+        max-width: 30%;
+        object-fit: contain;
+    }
+
+    & .hamburgerBtnStyles {
+        max-width: 20%;
+        object-fit: contain;
+    }
 }
 
 /*header*/

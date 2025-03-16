@@ -12,6 +12,13 @@ QUICKEST OPTION -- I'M SORRY!!!
         flex-flow: column wrap;
     }
 }
+
+.hamburgerMenu {
+    display: flex;
+    justify-content: space-between;
+    /*display: none;*/
+}
+
     .toolsStyles {
         display: flex;
         flex-flow: row wrap;
@@ -39,9 +46,14 @@ QUICKEST OPTION -- I'M SORRY!!!
     }
 
 /*NAV MENU*/
-.navStyles {
+.navDesktopStyles {
     display: flex;
     justify-content: space-between;
+}
+
+.btnNavStyles {
+    display: flex;
+    flex-direction: row;
 }
 
 /*header*/
@@ -113,6 +125,14 @@ QUICKEST OPTION -- I'M SORRY!!!
 @media (max-width: 768px) {
     .flex-container {
       flex-flow: column;
+    }
+
+    .btnNavStyles {
+        display:none;
+    }
+
+    .hamburgerMenu {
+
     }
 }
 /*MOBILE DEVICE*/
