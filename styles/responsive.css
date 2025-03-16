@@ -6,16 +6,109 @@ WHILE I AM REMOTE JUST IN CASE THAT ENDS UP BEING THE
 QUICKEST OPTION -- I'M SORRY!!!
 -AURORA */
 
+/*DESKTOP*/
+@media (min-width: 769px) {
+    .bodyStyles {
+        flex-flow: column wrap;
+    }
+
+    .containerStyles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .toolsStyles {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: space-evenly;
+    }
+
+    .projectStyles {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .portfolioCardStyles {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-decoration: none;
+    }
+
+    .divStyles {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .toolsStyles {
+        display: flex;
+        justify-content: space-around;
+    }
+
+/*NAV MENU*/
+.navStyles {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*header*/
+.headerStyles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formStyles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+.formElementStyles {
+    display:flex;
+    flex-wrap: wrap;
+}
 
 
-/*Tablet*/
+/*footer*/
+
+.footerWrapperStyles {
+    display: flex;
+    align-items: center;
+}
+.footerLeftStyles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;    
+    flex-direction: row;
+    justify-content: left;
+}
+
+.footerRightStyles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+    
+/*TABLET*/
 @media (max-width: 768px) {
     .flex-container {
       flex-flow: column;
     }
 
-/*Mobile Device*/
+/*MOBILE DEVICE*/
 @media (max-width: 540px) {
   .flex-container {
     flex-flow: column;
   }
+}

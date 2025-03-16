@@ -19,7 +19,7 @@ QUICKEST OPTION -- I'M SORRY!!!
     background-color: #ffffff;
     border-width: 25px;
     margin: auto;
-    padding: 5%;
+    padding: 2% 10%;
     width: 70%;
 
     /*Body Text Styles*/
@@ -50,9 +50,6 @@ QUICKEST OPTION -- I'M SORRY!!!
 
 }
     & .containerStyles {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
         border-style: solid;
         border-width: 5px;
         padding: 5%;
@@ -62,45 +59,29 @@ QUICKEST OPTION -- I'M SORRY!!!
         border-style: solid;
         border-width: 5px;
         padding: 5%;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        align-content: space-evenly;
 
             img {
                 max-width: 50px;
             }
     }
-
-    & .projectStyles {
-        display: flex;
-        flex-flow: column wrap;
-        gap: 20px;
-        align-items: center;
-        justify-content: space-between;
-    }
-
+  /**CHANGE THESE FIXED WIDTH CARDS! THEY ARE IMPACTING YOUR RESPONSIVE DESIGN **/
     & .portfolioCardStyles {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
         text-decoration: none;
         align-items: center;
         color: black;
         border-style:solid;
         border-width: 5px;
-        padding: 10px;
+        padding: 2%;
+        margin: 2%;
     }
+    /**CHANGE THESE FIXED WIDTH CARDS! THEY ARE IMPACTING YOUR RESPONSIVE DESIGN **/
         & .imgCardStyles {
             width: 200px;
         }
 
         & .imgToolsStyles {
             max-width: 60px;
-        }
-
-        & .divStyles {
-            display: flex;
+            padding: 5%;
         }
 
 
@@ -108,11 +89,9 @@ QUICKEST OPTION -- I'M SORRY!!!
 /*nav*/
 .navStyles {
     padding: 40px;
-    display: flex;
-    justify-content: space-between;
 
     img {
-        width: 150px;
+        max-width: 25%;
     }
 }
 
@@ -144,9 +123,6 @@ QUICKEST OPTION -- I'M SORRY!!!
 
 /*header*/
 .headerStyles {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: auto;
     margin: auto;
 }
@@ -156,7 +132,9 @@ QUICKEST OPTION -- I'M SORRY!!!
         padding: 10%;
 
     }
-
+.divStyles {
+    margin: 2%;
+}
 /*form*/
 .formStyles {
     display: flex;
@@ -169,47 +147,29 @@ QUICKEST OPTION -- I'M SORRY!!!
     
 }
 
-.formElementStyles {
-    display:flex;
-    flex-wrap: wrap;
-}
-
-
-/*footer*/
+/*footer
+CORRECT THE FIXED WIDTH*/
 
 .footerWrapperStyles {
-    display: flex;
-    width: 1000px;
-    justify-content: flex-end;
-    align-items: center;
     border-style: solid;
+    border-width: 5px;
+    margin: 2% 0%;
+    padding: 5%;
 }
 .footerLeftStyles {
-    display: flex;
-    width: 500px;
     padding: 10px 30px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 10px;
-    flex-shrink: 0;    
     width: auto;
-    flex-direction: row;
-    justify-content: left;
 
-    img {
-        max-width: 50px;
-    }
+        img {
+            max-width: 50px;
+        }
+}
+
+.photoStyles {
+    max-width: 50%;
 }
 
 .footerRightStyles {
-    display: flex;
-    width: 500px;
     padding: 10px 50px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
     gap: 20px;
-    flex-shrink: 0;
-    align-self: stretch;
 }
