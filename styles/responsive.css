@@ -11,14 +11,11 @@ QUICKEST OPTION -- I'M SORRY!!!
     .bodyStyles {
         flex-flow: column wrap;
     }
-}
 
-.hamburgerMenu {
-    display: flex;
-    justify-content: space-between;
-    /*display: none;*/
+    .hamburger {
+        display: none;
+    }
 }
-
     .toolsStyles {
         display: flex;
         flex-flow: row wrap;
@@ -46,15 +43,16 @@ QUICKEST OPTION -- I'M SORRY!!!
     }
 
 /*NAV MENU*/
-.navDesktopStyles {
+
+.navStyles {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-.btnNavStyles {
+.btnDesktopNavStyles {
     display: flex;
     flex-direction: row;
-}
 
 /*header*/
 .headerStyles {
@@ -123,16 +121,12 @@ QUICKEST OPTION -- I'M SORRY!!!
     
 /*TABLET*/
 @media (max-width: 768px) {
+    .desktopNav {
+        display: none;
+    }
+
     .flex-container {
       flex-flow: column;
-    }
-
-    .btnNavStyles {
-        display:none;
-    }
-
-    .hamburgerMenu {
-
     }
 }
 /*MOBILE DEVICE*/
@@ -140,4 +134,8 @@ QUICKEST OPTION -- I'M SORRY!!!
   .flex-container {
     flex-flow: column;
   }
+
+  .desktopNav {
+    display: none;
+}
 }

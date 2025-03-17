@@ -91,16 +91,16 @@ QUICKEST OPTION -- I'M SORRY!!!
         }
 
 /*nav*/
-.navDesktopStyles {
-    padding: 5%;
+    .navStyles {
+        padding: 5%;
 
-    img {
-        max-width: 30%;
-        object-fit: contain;
+        img {
+            max-width: 30%;
+            object-fit: contain;
+        }
     }
-}
 
-    & .btnNavStyles {
+    & .btnDesktopNavStyles {
         a {
             font-family: 'Atkinson Hyperlegible Next';
             font-weight: 700;
@@ -115,29 +115,29 @@ QUICKEST OPTION -- I'M SORRY!!!
         }       
     }
 
-.submitBtnStyles {
-    font-family: 'Atkinson Hyperlegible Next';
-    font-weight: 700;
-    text-decoration: none;
-    color: black;
-    border-style:solid;
-    border-color: black;
-    border-width: 5px;
-    padding: 1%,2%;
-    background-color: #ffffff; 
-}
-
-.hamburgerMenu{
-    img {
-        max-width: 30%;
-        object-fit: contain;
+    .submitBtnStyles {
+        font-family: 'Atkinson Hyperlegible Next';
+        font-weight: 700;
+        text-decoration: none;
+        color: black;
+        border-style:solid;
+        border-color: black;
+        border-width: 5px;
+        padding: 1%,2%;
+        background-color: #ffffff; 
     }
 
-    & .hamburgerBtnStyles {
-        max-width: 20%;
-        object-fit: contain;
+    .hamburgerMenu{
+        img {
+            max-width: 30%;
+            object-fit: contain;
+        }
+
+        & .hamburgerBtnStyles {
+            max-width: 20%;
+            object-fit: contain;
+        }
     }
-}
 
 /*header*/
 .headerStyles {
