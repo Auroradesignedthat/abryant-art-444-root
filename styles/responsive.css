@@ -131,11 +131,11 @@ QUICKEST OPTION -- I'M SORRY!!!
 }
 /*MOBILE DEVICE*/
 @media (max-width: 540px) {
+    .desktopNav {
+        display: none;
+    }
+
   .flex-container {
     flex-flow: column;
   }
-
-  .desktopNav {
-    display: none;
-}
 }
