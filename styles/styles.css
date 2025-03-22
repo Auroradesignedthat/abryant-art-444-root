@@ -1,10 +1,4 @@
-/*README
-15 MAR 2025: MY CODE DIDN'T UPDATE ON MY REPOSITORY AND IT'S
-ON MY LOCAL MACHINE AT HOME WHILE I AM CURRENTLY REMOTE
-I WILL UPDATE ASAP BUT MEANWHILE I WILL BE ADDING CODE
-WHILE I AM REMOTE JUST IN CASE THAT ENDS UP BEING THE
-QUICKEST OPTION -- I'M SORRY!!!
--AURORA */
+/**README**/
 
 
 
@@ -91,7 +85,7 @@ QUICKEST OPTION -- I'M SORRY!!!
         }
 
 /*nav*/
-.navDesktopStyles {
+.navDesktop {
     padding: 5%;
 
     img {
@@ -112,7 +106,12 @@ QUICKEST OPTION -- I'M SORRY!!!
             padding: 2% 5%;
             margin: 5%;
             background-color: #ffffff;        
-        }       
+        }
+        
+        a:hover {
+            color:red;
+            border-color: red;
+        }
     }
 
 .submitBtnStyles {
@@ -125,6 +124,10 @@ QUICKEST OPTION -- I'M SORRY!!!
     border-width: 5px;
     padding: 1%,2%;
     background-color: #ffffff; 
+}
+.submitBtnStyles:hover {
+    color: red;
+    border-color: red;
 }
 
 .hamburgerMenu{
@@ -173,11 +176,11 @@ QUICKEST OPTION -- I'M SORRY!!!
 }
 
 .footerLeftStyles {
-    padding: 2% 5%;
     width: auto;
 
         img {
             max-width: 50px;
+            margin: 5%;
         }
 }
 
