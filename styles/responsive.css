@@ -1,10 +1,4 @@
-/*README
-15 MAR 2025: MY CODE DIDN'T UPDATE ON MY REPOSITORY AND IT'S
-ON MY LOCAL MACHINE AT HOME WHILE I AM CURRENTLY REMOTE
-I WILL UPDATE ASAP BUT MEANWHILE I WILL BE ADDING CODE
-WHILE I AM REMOTE JUST IN CASE THAT ENDS UP BEING THE
-QUICKEST OPTION -- I'M SORRY!!!
--AURORA */
+/**README**/
 
 /*DESKTOP*/
 @media (min-width: 769px) {
@@ -12,57 +6,48 @@ QUICKEST OPTION -- I'M SORRY!!!
         flex-flow: column wrap;
     }
 }
-
 .hamburgerMenu {
     display: flex;
     justify-content: space-between;
-    /*display: none;*/
+    display: none
+}
+.toolsStyles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.projectStyles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.portfolioCardStyles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-decoration: none;
+}
+.divStyles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-    .toolsStyles {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .projectStyles {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-    }
-
-    .portfolioCardStyles {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        text-decoration: none;
-    }
-
-    .divStyles {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
 /*NAV MENU*/
-.navDesktopStyles {
+.navDesktop {
     display: flex;
     justify-content: space-between;
 }
-
 .btnNavStyles {
     display: flex;
-    flex-direction: row;
 }
-
 /*header*/
 .headerStyles {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .formStyles {
     display: flex;
     flex-wrap: wrap;
@@ -82,18 +67,15 @@ QUICKEST OPTION -- I'M SORRY!!!
         height: auto;
     }
 }
-
 .formElementStyles {
     display:flex;
     flex-wrap: wrap;
 }
-
 .formContainerStyles {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
 }
-
 
 /*footer*/
 
@@ -101,38 +83,34 @@ QUICKEST OPTION -- I'M SORRY!!!
     display: flex;
     align-items: center;
 }
+.containerFooterLinkStyles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .footerLeftStyles {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     flex-shrink: 0;    
     flex-direction: row;
-    justify-content: left;
 }
-
 .footerRightStyles {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    flex-shrink: 0;
-    align-self: stretch;
 }
-
     
 /*TABLET*/
 @media (max-width: 768px) {
     .flex-container {
       flex-flow: column;
     }
-
-    .btnNavStyles {
-        display:none;
-    }
-
     .hamburgerMenu {
-
+        display: flex;
+        justify-content: space-between;
+    }
+    .navDesktop{
+        display: none;
     }
 }
 /*MOBILE DEVICE*/
