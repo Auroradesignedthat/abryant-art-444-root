@@ -1,4 +1,6 @@
-/**README**/
+/**README
+ADDING JS
+REFINE CSS ESP. NAV MENU**/
 
 
 
@@ -104,7 +106,7 @@
             border-color: black;
             border-width: 5px;
             padding: 2% 5%;
-            margin: 5%;
+            /*margin: 5%;*/
             background-color: #ffffff;        
         }
         
@@ -136,7 +138,7 @@
         object-fit: contain;
     }
 
-    & .hamburgerBtnStyles {
+    & #hamburgerBtnStyles {
         max-width: 20%;
         object-fit: contain;
     }
