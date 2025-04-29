@@ -1,23 +1,34 @@
-/*README
-/**README
-ADDING JS
-REFINE CSS ESP. NAV MENU**/
-
-
-
 
 /*typefaces*/
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 
 /*body*/
+
+body {
+  background-color: white;
+}
+
+ body.dark-mode {
+  background-color: black !important;
+  border-color: white;
+}
 .bodyStyles {
     border-style: solid;
     border-color:black;
-    background-color: #ffffff;
+    background-color: white;
     border-width: 25px;
     margin: auto;
     padding: 2% 10%;
     width: 70%;
+}
+
+.headerStyles {
+  background-color: white;
+}
+
+.dark-mode .headerStyles {
+  background-color: black;
+}
 
     /*Body Text Styles*/
     h1 {
@@ -25,11 +36,18 @@ REFINE CSS ESP. NAV MENU**/
         font-weight: 700;
         font-size: 60px;
     }
+
+    .dark-mode h1 {
+      color: white;
+    }
     
     h2 {
         font-family: "Instrumental Sans", sans-serif;
         font-weight: 600;
         font-size: 40px;
+    }
+    .dark-mode h2 {
+      color: white;
     }
 
     h3 {
@@ -38,32 +56,48 @@ REFINE CSS ESP. NAV MENU**/
         font-size: 25px;
 
     }
+    .dark-mode h3 {
+      color: white;
+    }
 
     p, span {
         font-family: "Instrumental Sans", sans-serif;
         font-weight: 500;
         font-size: 17px;
     }
+    .dark-mode p {
+      color: white;
+    }
 
-}
-    & .containerStyles {
+      .containerStyles {
         border-style: solid;
         border-width: 5px;
         padding: 5%;
     }
 
-    & .toolsStyles {
+    .dark-mode .containerStyles {
+      color: white;
+      background-color: black;
+    }
+
+      .toolsStyles {
         border-style: solid;
         border-width: 5px;
         text-align: center;
         padding: 5%;
         margin: 5%;
+        background-color: white;
+    }
+
+    .dark-mode .toolsStyles {
+      background-color: black;
     }
   /**CHANGE THESE FIXED WIDTH CARDS! THEY ARE IMPACTING YOUR RESPONSIVE DESIGN **/
-    & .portfolioCardStyles {
+      .portfolioCardStyles {
         text-decoration: none;
         align-items: center;
         color: black;
+        background-color: white;
         border-style:solid;
         border-width: 5px;
         padding: 2%;
@@ -77,13 +111,18 @@ REFINE CSS ESP. NAV MENU**/
             margin: 2% 0%;
         }
     }
+
+    .dark-mode .portfolioCardStyles {
+      color: white;
+      background-color: black;
+    }
     /**CHANGE THESE FIXED WIDTH CARDS! THEY ARE IMPACTING YOUR RESPONSIVE DESIGN **/
-        & .imgCardStyles {
-            width: 200px;
+          .imgCardStyles {
+            width: 100%;
         }
 
-        & .imgToolsStyles {
-            max-width: 60px;
+          .imgToolsStyles {
+            max-width: 100%;
             padding: 5%;
         }
 
@@ -91,23 +130,41 @@ REFINE CSS ESP. NAV MENU**/
 .navbar {
   display: flex;
   align-items: center;
-  background: white;
-  color: black;
-  padding: 0 20px;
+  background-color: white;
+  padding: 0px 20px;
   height: 60px;
 }
-
+.dark-mode .navbar {
+  background: black;
+}
 .logo {
+  width: 100%;
+  height: 100%;
   font-size: 1.5em;
   font-weight: bold;
   margin-right: auto;
 }
 
+.dark-mode .logo {
+  color: white;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
 .nav-links {
+  background: white;
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
+}
+
+.dark-mode .nav-links {
+  background: black;
 }
 
 .nav-links li {
@@ -115,11 +172,14 @@ REFINE CSS ESP. NAV MENU**/
     margin: 0 15px;
 }
 
-.nav-links a {
+a {
   color: black;
   text-decoration: none;
   font-size: 1em;
   transition: color 0.3s;
+}
+.dark-mode a {
+  color: white
 }
 
 .nav-links a:hover {
@@ -135,7 +195,9 @@ REFINE CSS ESP. NAV MENU**/
   height: 22px;
   justify-content: space-between;
 }
-
+.dark-mode .hamburger span {
+  background: white;
+}
 .hamburger span {
   display: block;
   height: 4px;
@@ -156,17 +218,6 @@ REFINE CSS ESP. NAV MENU**/
   transform: translateY(-9px) rotate(-45deg);
 }
 
-/*header*/
-.headerStyles {
-    height: auto;
-    margin: auto;
-}
-
-    & .elevatorPitch {
-        text-align: center;
-        padding: 10%;
-
-    }
 /*form*/
 .formStyles {
     font-family: "Instrumental Sans", sans-serif;
