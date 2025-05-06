@@ -1,12 +1,20 @@
+
 /*typefaces*/
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 
+/*Header Styles*/
+.headerStyles {
+  background-color: white;
+}
+
+.dark-mode .headerStyles {
+  background-color: black;
+}
 /*body*/
 
 body {
   background-color: white;
 }
-
  body.dark-mode {
   background-color: black !important;
   border-color: white;
@@ -21,15 +29,7 @@ body {
     width: 70%;
 }
 
-.headerStyles {
-  background-color: white;
-}
-
-.dark-mode .headerStyles {
-  background-color: black;
-}
-
-    /*Body Text Styles*/
+    /*TEXT STYLES*/
     h1 {
         font-family: "Instrument Sans", sans-serif;
         font-weight: 700;
@@ -68,14 +68,23 @@ body {
       color: white;
     }
 
+    /*PAGE STYLES*/
+
       .containerStyles {
         border-style: solid;
-        border-width: 5px;
+        border-width: 10px;
+        border-color: black;
         padding: 5%;
+        margin: 10%;
+    }
+
+    .containerStyles > img {
+      display: flex;
+      align-content: center;
     }
 
     .dark-mode .containerStyles {
-      color: white;
+      border-color: white;
       background-color: black;
     }
 
@@ -91,7 +100,8 @@ body {
     .dark-mode .toolsStyles {
       background-color: black;
     }
-  /**CHANGE THESE FIXED WIDTH CARDS! THEY ARE IMPACTING YOUR RESPONSIVE DESIGN **/
+ 
+    /*CARD STYLES*/
       .portfolioCardStyles {
         text-decoration: none;
         align-items: center;
@@ -115,7 +125,6 @@ body {
       color: white;
       background-color: black;
     }
-    /**CHANGE THESE FIXED WIDTH CARDS! THEY ARE IMPACTING YOUR RESPONSIVE DESIGN **/
           .imgCardStyles {
             width: 100%;
         }
@@ -230,6 +239,16 @@ a {
     margin: 2% 0%;
 }
 
+/*TAKEAWAY STYLES*/
+
+.takeawayStyles div {
+  border-style: solid;
+  border-color: black;
+}
+.dark-mode .takeawayStyles div {
+  border-style: solid;
+  border-color: white;
+}
 /*footer*/
 
 .footerWrapperStyles {

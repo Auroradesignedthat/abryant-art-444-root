@@ -157,27 +157,27 @@
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
             <div>
-                <form action="#", class="formStyles">
-                    <div class="formElementStyles">
+                <form action="form.php" method="post">
+                    <div>
                         <label for="fname">First name:</label>
-                        <input type="text" id="fname" name="fname">
+                        <input type="text" id="fname" name="fname" required>
                     </div>
-                    <div class="formElementStyles">
+                    <div>
                         <label for="lname">Last name:</label>
-                        <input type="text" id="lname" name="lname">
+                        <input type="text" id="lname" name="lname" required>
                     </div>
-                    <div class="formElementStyles">
+                    <div>
                         <label for="email">Email:</label>
-                        <input type="text" id="email" name="email">
+                        <input type="email" id="email" name="email" required>
                     </div>
-                    <div class="formElementStyles">
+                    <div>
                         <label for="contactMsg">Message:</label>
-                        <textarea id="contactMsg" name="contactMsg"></textarea>
+                        <textarea id="contactMsg" name="contactMsg" required></textarea>
                     </div>
-                  </form>
-                  <div class="formElementStyles">
-                    <input type="button" class="submitBtnStyles" value="Submit">
-                  </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
             </div>
         </section>
         <section class="footerWrapperStyles">
