@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
   
       // Send the form using EmailJS
-      emailjs.sendForm('service_5vxq1iu', 'c5x-pB0bci5IMaZea', form)
+      emailjs.sendForm('service_5vxq1iu', 'template_ws5d3ce', form)
         .then(() => {
           resultDiv.textContent = "Message sent successfully!";
           form.reset();
