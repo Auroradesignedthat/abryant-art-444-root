@@ -20,14 +20,14 @@
         <!--Dark Mode Button-->
         <button onclick="darkMode()">Toggle Dark Mode</button>
 
-        <nav class="navbar">
+        <nav class="navbar" id="home">
             <a href="" class="logo">
-            <img src="/logos/primaryLogo.svg" alt="Aurora" class="logo">
+            <img src="logos/primaryLogo.svg" alt="Aurora" class="logo">
             </a>
             <ul class="nav-links" id="navLinks">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
               <span></span>
@@ -40,19 +40,24 @@
             <header class="headerStyles">
                 <div>
                      <h1>Hi, My Name is Aurora</h1>
-                      <h2>I make streamlined, SEO-optimized websites for non-profit
-                        organizations and academic institutions that solve accessibility problems.</h2>
+                      <h2>I create accessible, research-driven websites 
+                        that help your business grow by turning your unique 
+                        story into a clear, engaging online experience your customers will love.</h2>
                 </div>
             </header>
 
         </section>
 
-        <section class="containerStyles">
+        <section class="containerStyles" id="about">
             <div>
                 <!--Portfolio introduction-->
                 <h2>What I Can Do For You:</h2>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua.</h3>
+                <h3>I’m a web designer and qualitative researcher who believes that strong, 
+                    research-driven design solutions empower businesses to sustainably grow 
+                    and enrich the lives of their intended audience. My work blends scalable 
+                    design solutions and creativity, with a commitment to inclusivity, social justice, 
+                    and accessibility. If you’re ready to build something meaningful, I’m here to listen, 
+                    understand your story, and design solutions that help your hard work thrive.</h3>
             </div>
 
             <div>
@@ -111,37 +116,37 @@
                     <h2>My Projects</h2>
                     <div class="projectStyles">
                         <a href="projectForSanitationJusticeWebsite.html" class="portfolioCardStyles">
-                            <img class="imgCardStyles" src="logos/Auroraplaceholder-8.png" alt="Button Image">
+                            <img class="imgCardStyles" src="pics/ProjectForSanitationJusticeHomePageBw.jpg" alt="Button Image">
                             <span>Project for Sanitation Justice Website</span>
                             <span>This project showcases the academic work and media presence of the Project for Sanitation Justice team.</span>
                         </a>
 
                         <a href="sanDiegoServiceJam.html" class="portfolioCardStyles">
-                            <img class="imgCardStyles" src="logos/Auroraplaceholder-8.png" alt="Button Image">
+                            <img class="imgCardStyles" src="pics/s3_bw.jpg" alt="Button Image">
                             <span>San Diego Service Jam</span>
                             <span>A three-day rapid product design research and prototyping session within an interdisciplinary team environment with the goal to solve communication issues among families.</span>
                         </a>
 
                         <a href="s3SymposiumAtSdsu.html" class="portfolioCardStyles">
-                            <img class="imgCardStyles" src="logos/Auroraplaceholder-8.png" alt="Button Image">
+                            <img class="imgCardStyles" src="pics/s3_Symposium.jpg" alt="Button Image">
                             <span>S3 Symposium at SDSU</span>
                             <span>A 10-minute multidisciplinary talk which covers a wide variety of topics such as Artificial Intelligence, Public Health, UX Design, and Science Communications.</span>
                         </a>
 
                         <a href="californiaTrashMandatePortfolio.html" class="portfolioCardStyles">
-                            <img class="imgCardStyles" src="logos/Auroraplaceholder-8.png" alt="Button Image">
+                            <img class="imgCardStyles" src="pics/bathroomBW.jpg" alt="Button Image">
                             <span>Research - California Trash Amendment Mandate</span>
                             <span>A National Oceanic and Atmospheric Administration (NOAA) funded project which informs the likelihood of success of the California Trash Amendment Mandate.</span>
                         </a>
 
                         <a href="washPhotoExhibitWebpage.html" class="portfolioCardStyles">
-                            <img class="imgCardStyles" src="logos/Auroraplaceholder-8.png" alt="Button Image">
+                            <img class="imgCardStyles" src="pics/wash_student_exhibit_BW.jpg" alt="Button Image">
                             <span>WaSH Photo Exhibit Website</span>
                             <span>An ongoing multidisciplinary team project that translates a physical exhibit into a website while navigating educational and sociopolitical pain points.</span>
                         </a>
 
                         <a href="projectForSanitationJusticeInfographic.html" class="portfolioCardStyles">
-                            <img class="imgCardStyles" src="logos/Auroraplaceholder-8.png" alt="Button Image">
+                            <img class="imgCardStyles" src="pics/psj_infographicBw.jpg" alt="Button Image">
                             <span>Project for Sanitation Justice Infographic</span>
                             <span>A project which communicates the need for more public restrooms in downtown San Diego.</span>
                         </a>
@@ -156,7 +161,8 @@
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
-            <div>
+            <!--FORM-->
+            <div class="formStyles">
                 <form id="contactForm">
                     <div>
                       <label for="fname">First name:</label>
@@ -181,7 +187,7 @@
                   <div id="result"></div>
             </div>
         </section>
-        <section class="footerWrapperStyles">
+        <section class="footerWrapperStyles" id="contact">
             <footer>
                 <h2>Would You Like to Learn More?</h2>
             <div class = "containerFooterLinkStyles">
@@ -197,9 +203,6 @@
                                 <img src="logos/Instagram_Glyph_Black.png" alt="Instagram Logo">
                             </a>
                         </div>          
-                </div>
-                <div class="footerRightStyles btnNavStyles">
-                    <a href="#">Resume</a>
                 </div>
             </div>
             </footer>

@@ -194,6 +194,18 @@ a {
   color: #04AA6D;
 }
 
+.nav-links > li {
+  font-family: "Instrumental Sans", sans-serif;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  padding: 2%;
+}
+
+.dark-mode .nav-links > li {
+  border-color: white;
+}
+
 /* Hamburger icon */
 .hamburger {
   display: none;
@@ -231,7 +243,20 @@ a {
     font-family: "Instrumental Sans", sans-serif;
     font-weight: 500;
     font-size: 17px;
-    max-width: 40%; 
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+
+    input, textarea, button {
+      margin: 3%;
+      border-style: solid;
+      border-width: 2px;
+      border-color: black;
+    }
+}
+
+.dark-mode .formStyles {
+  border-color: white;
 }
 
 .formElementStyles {
@@ -263,11 +288,6 @@ a {
 
         img {
             max-width: 50px;
-            margin: 5%;
+            padding: 10px;
         }
-}
-
-.footerRightStyles {
-    padding: 10px 50px;
-    gap: 20px;
 }
