@@ -1,0 +1,153 @@
+/**README**/
+
+/*DESKTOP*/
+@media (min-width: 769px) {
+    .bodyStyles {
+        flex-flow: column wrap;
+    }
+}
+#hamburgerMenu {
+    display: flex;
+    justify-content: space-between;
+    display: none
+}
+.toolsStyles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    img {
+      display: flex;
+      margin: 20px;
+      max-width: 75px;
+    }
+}
+.projectStyles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.portfolioCardStyles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-decoration: none;
+    max-width: 200px;
+}
+/*NAV MENU*/
+.navDesktop {
+    display: flex;
+    justify-content: space-between;
+}
+.btnNavStyles {
+    display: flex;
+}
+
+/*Header*/
+.containerStyles > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+/*Contact Form */
+.formStyles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    input {
+        display: flex;
+        flex-wrap: wrap; 
+        width: 100%;
+        height: auto;
+    }
+
+    textarea, div {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+}
+.formElementStyles {
+    display:flex;
+    flex-wrap: wrap;
+}
+/*TAKEAWAY STYLES*/
+
+.takeawayStyles {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .takeawayStyles > div {
+    align-items: center;
+  }
+
+  .takeawayContainer > div {
+    margin: 10%;
+    padding: 5%;
+    border-style: solid;
+    border-width: 5px;
+  }
+/*footer*/
+
+.footerWrapperStyles {
+    display: flex;
+    align-items: center;
+}
+.containerFooterLinkStyles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footerLeftStyles {
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;    
+    flex-direction: row;
+}
+.footerRightStyles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+/*TABLET*/
+@media (max-width: 768px) {
+
+    .nav-links {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+      }
+    
+      .nav-links.active {
+        display: flex;
+      }
+    
+      .nav-links li {
+        margin: 15px 0;
+      }
+    
+      .hamburger {
+        display: flex;
+        margin-left: auto;
+      }
+    .flex-container {
+      flex-flow: column;
+    }
+
+}
+/*MOBILE DEVICE*/
+@media (max-width: 540px) {
+  .flex-container {
+    flex-flow: column;
+  }
+}

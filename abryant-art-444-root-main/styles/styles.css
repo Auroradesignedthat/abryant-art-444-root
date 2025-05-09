@@ -1,0 +1,296 @@
+
+/*typefaces*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+/*Header Styles*/
+.headerStyles {
+  background-color: white;
+}
+
+.dark-mode .headerStyles {
+  background-color: black;
+}
+/*body*/
+
+body {
+  background-color: white;
+}
+ body.dark-mode {
+  background-color: black !important;
+  border-color: white;
+}
+.bodyStyles {
+    border-style: solid;
+    border-color:black;
+    background-color: white;
+    border-width: 25px;
+    margin: auto;
+    padding: 2% 10%;
+    width: 70%;
+}
+
+    /*TEXT STYLES*/
+    h1 {
+        font-family: "Instrument Sans", sans-serif;
+        font-weight: 700;
+        font-size: 60px;
+    }
+
+    .dark-mode h1 {
+      color: white;
+    }
+    
+    h2 {
+        font-family: "Instrumental Sans", sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .dark-mode h2 {
+      color: white;
+    }
+
+    h3 {
+        font-family: "Instrumental Sans", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+
+    }
+    .dark-mode h3 {
+      color: white;
+    }
+
+    p, span {
+        font-family: "Instrumental Sans", sans-serif;
+        font-weight: 500;
+        font-size: 17px;
+    }
+    .dark-mode p {
+      color: white;
+    }
+
+    /*PAGE STYLES*/
+
+      .containerStyles {
+        border-style: solid;
+        border-width: 10px;
+        border-color: black;
+        padding: 5%;
+        margin: 10%;
+    }
+
+    .containerStyles > img {
+      display: flex;
+      align-content: center;
+    }
+
+    .dark-mode .containerStyles  {
+      border-color: white;
+      background-color: black;
+      color: white
+    }
+
+    
+
+      .toolsStyles {
+        border-style: solid;
+        border-width: 5px;
+        text-align: center;
+        padding: 5%;
+        margin: 5%;
+        background-color: white;
+    }
+
+    .dark-mode .toolsStyles {
+      background-color: black;
+    }
+ 
+    /*CARD STYLES*/
+      .portfolioCardStyles {
+        text-decoration: none;
+        align-items: center;
+        color: black;
+        background-color: white;
+        border-style:solid;
+        border-width: 5px;
+        padding: 2%;
+        margin: 2%;
+
+        span {
+            margin: 2% 0%;
+        }
+
+        img {
+            margin: 2% 0%;
+        }
+    }
+
+    .dark-mode .portfolioCardStyles {
+      color: white;
+      background-color: black;
+    }
+          .imgCardStyles {
+            width: 100%;
+        }
+
+          .imgToolsStyles {
+            max-width: 100%;
+            padding: 5%;
+        }
+
+/*nav*/  
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0px 20px;
+  height: 60px;
+}
+.dark-mode .navbar {
+  background: black;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.dark-mode .logo {
+  color: white;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
+.nav-links {
+  background: white;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.dark-mode .nav-links {
+  background: black;
+}
+
+.nav-links li {
+    position: relative;
+    margin: 0 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+.dark-mode a {
+  color: white
+}
+
+.nav-links a:hover {
+  color: #04AA6D;
+}
+
+.nav-links > li {
+  font-family: "Instrumental Sans", sans-serif;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  padding: 2%;
+}
+
+.dark-mode .nav-links > li {
+  border-color: white;
+}
+
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  width: 30px;
+  height: 22px;
+  justify-content: space-between;
+}
+.dark-mode .hamburger span {
+  background: white;
+}
+.hamburger span {
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: black;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+
+/* Hamburger animation when active */
+.hamburger.active span:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}
+
+/*form*/
+.formStyles {
+    font-family: "Instrumental Sans", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+
+    input, textarea, button {
+      margin: 3%;
+      border-style: solid;
+      border-width: 2px;
+      border-color: black;
+    }
+}
+
+.dark-mode .formStyles {
+  border-color: white;
+}
+
+.formElementStyles {
+    width: 100%;
+    margin: 2% 0%;
+}
+
+/*TAKEAWAY STYLES*/
+
+.takeawayStyles div {
+  border-style: solid;
+  border-color: black;
+}
+.dark-mode .takeawayStyles div {
+  border-style: solid;
+  border-color: white;
+}
+/*footer*/
+
+.footerWrapperStyles {
+    border-style: solid;
+    border-width: 5px;
+    margin: 2% 0%;
+    padding: 5%;
+}
+
+.footerLeftStyles {
+    width: auto;
+
+        img {
+            max-width: 50px;
+            padding: 10px;
+        }
+}
